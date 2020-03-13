@@ -1,0 +1,59 @@
+{
+    "elements":
+            [
+                {
+                    "type": "Label",
+                    "label": "Config adresse here:"
+                },
+                {
+                    "name": "Code",
+                    "type": "ValidationTextBox",
+                    "caption": "Intertechno Code"
+                },
+                {
+                    "name": "CodeOn",
+                    "type": "ValidationTextBox",
+                    "caption": "ON Code"
+                },
+                {
+                    "name": "CodeOff",
+                    "type": "ValidationTextBox",
+                    "caption": "OFF Code"
+                },
+                {
+                    "name": "Repeat",
+                    "type": "Select",
+                    "caption": "Repeat code",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": 1
+                        },
+                        {
+                            "label": "2",
+                            "value": 2
+                        },
+                        {
+                            "label": "3",
+                            "value": 3
+                        },
+                        {
+                            "label": "4",
+                            "value": 4
+                        }
+                    ]
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "ON",
+                    "onClick": "IT_SendSwitchGen($id, true);"
+                },
+                {
+                    "type": "Button",
+                    "label": "OFF",
+                    "onClick": "IT_SendSwitchGen($id, false);"
+                }]
+}

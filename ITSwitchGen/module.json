@@ -1,0 +1,11 @@
+{
+    "id": "{48DFD4BF-8F91-4E81-BDDB-74F8DD0500EE}",
+    "name": "ITSwitchGen",
+    "type": 3,
+    "vendor": "Intertechno",
+    "aliases": ["Intertechno Generic"],
+    "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+    "childRequirements": [],
+    "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+    "prefix": "IT"
+}

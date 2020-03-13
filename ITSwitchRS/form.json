@@ -1,0 +1,186 @@
+{
+    "elements":
+            [
+                {
+                    "type": "Label",
+                    "label": "Config adresse here:"
+                },
+                {
+                    "name": "CharAdr",
+                    "type": "Select",
+                    "caption": "Letter",
+                    "options": [
+                        {
+                            "label": "A",
+                            "value": "0000"
+                        },
+                        {
+                            "label": "B",
+                            "value": "F000"
+                        },
+                        {
+                            "label": "C",
+                            "value": "0F00"
+                        },
+                        {
+                            "label": "D",
+                            "value": "FF00"
+                        },
+                        {
+                            "label": "E",
+                            "value": "00F0"
+                        },
+                        {
+                            "label": "F",
+                            "value": "F0F0"
+                        },
+                        {
+                            "label": "G",
+                            "value": "0FF0"
+                        },
+                        {
+                            "label": "H",
+                            "value": "FFF0"
+                        },
+                        {
+                            "label": "I",
+                            "value": "000F"
+                        },
+                        {
+                            "label": "J",
+                            "value": "F00F"
+                        },
+                        {
+                            "label": "K",
+                            "value": "0F0F"
+                        },
+                        {
+                            "label": "L",
+                            "value": "FF0F"
+                        },
+                        {
+                            "label": "M",
+                            "value": "00FF"
+                        },
+                        {
+                            "label": "N",
+                            "value": "F0FF"
+                        },
+                        {
+                            "label": "O",
+                            "value": "0FFF"
+                        },
+                        {
+                            "label": "P",
+                            "value": "FFFF"
+                        }
+                    ]
+                },
+                {
+                    "name": "ByteAdr",
+                    "type": "Select",
+                    "caption": "Number",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": "0000"
+                        },
+                        {
+                            "label": "2",
+                            "value": "F000"
+                        },
+                        {
+                            "label": "3",
+                            "value": "0F00"
+                        },
+                        {
+                            "label": "4",
+                            "value": "FF00"
+                        },
+                        {
+                            "label": "5",
+                            "value": "00F0"
+                        },
+                        {
+                            "label": "6",
+                            "value": "F0F0"
+                        },
+                        {
+                            "label": "7",
+                            "value": "0FF0"
+                        },
+                        {
+                            "label": "8",
+                            "value": "FFF0"
+                        },
+                        {
+                            "label": "9",
+                            "value": "000F"
+                        },
+                        {
+                            "label": "10",
+                            "value": "F00F"
+                        },
+                        {
+                            "label": "11",
+                            "value": "0F0F"
+                        },
+                        {
+                            "label": "12",
+                            "value": "FF0F"
+                        },
+                        {
+                            "label": "13",
+                            "value": "00FF"
+                        },
+                        {
+                            "label": "14",
+                            "value": "F0FF"
+                        },
+                        {
+                            "label": "15",
+                            "value": "0FFF"
+                        },
+                        {
+                            "label": "16",
+                            "value": "FFFF"
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat",
+                    "type": "Select",
+                    "caption": "Repeat code",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": 1
+                        },
+                        {
+                            "label": "2",
+                            "value": 2
+                        },
+                        {
+                            "label": "3",
+                            "value": 3
+                        },
+                        {
+                            "label": "4",
+                            "value": 4
+                        }
+                    ]
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "ON",
+                    "onClick": "IT_SendSwitchRS($id, true);"
+                },
+                {
+                    "type": "Button",
+                    "label": "OFF",
+                    "onClick": "IT_SendSwitchRS($id, false);"
+                }]
+}

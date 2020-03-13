@@ -1,0 +1,11 @@
+{
+    "id": "{DDE89BA6-A2F2-42A9-BB0A-78445D5B9781",
+    "name": "ITSwitchRS2",
+    "type": 3,
+    "vendor": "Intertechno",
+    "aliases": ["FLS 100 Schalter (RS)"],
+    "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+    "childRequirements": [],
+    "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+    "prefix": "IT"
+}

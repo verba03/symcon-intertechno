@@ -1,0 +1,86 @@
+{
+    "elements":
+            [
+                {
+                    "type": "Label",
+                    "label": "Config adresse here:"
+                },
+                {
+                    "name": "CharAdr",
+                    "type": "Select",
+                    "caption": "Letter",
+                    "options": [
+                        {
+                            "label": "A",
+                            "value": "1FFF"
+                        },
+                        {
+                            "label": "B",
+                            "value": "F1FF"
+                        },
+                        {
+                            "label": "C",
+                            "value": "FF1F"
+                        },
+                        {
+                            "label": "D",
+                            "value": "FFF1"
+                        }
+                    ]
+                },
+                {
+                    "name": "ByteAdr",
+                    "type": "Select",
+                    "caption": "Number",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": "1FF"
+                        },
+                        {
+                            "label": "2",
+                            "value": "F1F"
+                        },
+                        {
+                            "label": "3",
+                            "value": "FF1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat",
+                    "type": "Select",
+                    "caption": "Repeat code",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": 1
+                        },
+                        {
+                            "label": "2",
+                            "value": 2
+                        },
+                        {
+                            "label": "3",
+                            "value": 3
+                        },
+                        {
+                            "label": "4",
+                            "value": 4
+                        }
+                    ]
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "ON",
+                    "onClick": "IT_SendSwitchRS3($id, true);"
+                },
+                {
+                    "type": "Button",
+                    "label": "OFF",
+                    "onClick": "IT_SendSwitchRS3($id, false);"
+                }]
+}

@@ -1,0 +1,94 @@
+{
+    "elements":
+            [
+                {
+                    "type": "Label",
+                    "label": "Mark all 'ON' DIP-Swtich:"
+                },
+                {
+                    "name": "Bit0",
+                    "type": "CheckBox",
+                    "caption": "1"
+                },
+                {
+                    "name": "Bit1",
+                    "type": "CheckBox",
+                    "caption": "2"
+                },
+                {
+                    "name": "Bit2",
+                    "type": "CheckBox",
+                    "caption": "3"
+                },
+                {
+                    "name": "Bit3",
+                    "type": "CheckBox",
+                    "caption": "4"
+                },
+                {
+                    "name": "Bit4",
+                    "type": "CheckBox",
+                    "caption": "5"
+                },
+                {
+                    "name": "Bit5",
+                    "type": "CheckBox",
+                    "caption": "A"
+                },
+                {
+                    "name": "Bit6",
+                    "type": "CheckBox",
+                    "caption": "B"
+                },
+                {
+                    "name": "Bit7",
+                    "type": "CheckBox",
+                    "caption": "C"
+                },
+                {
+                    "name": "Bit8",
+                    "type": "CheckBox",
+                    "caption": "D"
+                },
+                {
+                    "name": "Bit9",
+                    "type": "CheckBox",
+                    "caption": "E"
+                },
+                {
+                    "name": "Repeat",
+                    "type": "Select",
+                    "caption": "Repeat code",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": 1
+                        },
+                        {
+                            "label": "2",
+                            "value": 2
+                        },
+                        {
+                            "label": "3",
+                            "value": 3
+                        },
+                        {
+                            "label": "4",
+                            "value": 4
+                        }
+                    ]
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "ON",
+                    "onClick": "IT_SendSwitchDIP($id, true);"
+                },
+                {
+                    "type": "Button",
+                    "label": "OFF",
+                    "onClick": "IT_SendSwitchDIP($id, false);"
+                }]
+}

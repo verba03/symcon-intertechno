@@ -1,0 +1,11 @@
+{
+    "id": "{59BD4307-48E4-4567-AF49-6DCF9F30E49C}",
+    "name": "ITSwitchDIP",
+    "type": 3,
+    "vendor": "Intertechno",
+    "aliases": ["Intertechno (Dip)"],
+    "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+    "childRequirements": [],
+    "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+    "prefix": "IT"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "{3E0A32C7-24EB-46EA-BDC0-0390474A5F88}",
+    "name": "ITSwitchRS3",
+    "type": 3,
+    "vendor": "Intertechno",
+    "aliases": ["REV Schalter (RS)"],
+    "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+    "childRequirements": [],
+    "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+    "prefix": "IT"
+}

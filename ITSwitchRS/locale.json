@@ -1,0 +1,10 @@
+{
+    "translations": {
+        "de": {
+            "Config adresse here:": "Adresse hier einstellen:",
+            "Letter": "Buchstabe",
+            "Number": "Zahl",
+            "Repeat code": "Sende-Zyklen"
+        }
+    }
+}

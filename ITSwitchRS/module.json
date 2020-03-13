@@ -1,0 +1,11 @@
+{
+    "id": "{F1B5A7EE-A7A2-4817-81EC-F49496B95C8A}",
+    "name": "ITSwitchRS",
+    "type": 3,
+    "vendor": "Intertechno",
+    "aliases": ["AB600", "Intertechno Schalter (RS)"],
+    "parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+    "childRequirements": [],
+    "implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+    "prefix": "IT"
+}

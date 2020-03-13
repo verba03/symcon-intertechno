@@ -1,0 +1,90 @@
+{
+    "elements":
+            [
+                {
+                    "type": "Label",
+                    "label": "Config adresse here:"
+                },
+                {
+                    "name": "CharAdr",
+                    "type": "Select",
+                    "caption": "Roman numeral",
+                    "options": [
+                        {
+                            "label": "I",
+                            "value": "0FFF"
+                        },
+                        {
+                            "label": "II",
+                            "value": "F0FF"
+                        },
+                        {
+                            "label": "III",
+                            "value": "FF0F"
+                        },
+                        {
+                            "label": "IV",
+                            "value": "FFF0"
+                        }
+                    ]
+                },
+                {
+                    "name": "ByteAdr",
+                    "type": "Select",
+                    "caption": "Number",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": "0FFF"
+                        },
+                        {
+                            "label": "2",
+                            "value": "F0FF"
+                        },
+                        {
+                            "label": "3",
+                            "value": "FF0F"
+                        },
+                        {
+                            "label": "4",
+                            "value": "FFF0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat",
+                    "type": "Select",
+                    "caption": "Repeat code",
+                    "options": [
+                        {
+                            "label": "1",
+                            "value": 1
+                        },
+                        {
+                            "label": "2",
+                            "value": 2
+                        },
+                        {
+                            "label": "3",
+                            "value": 3
+                        },
+                        {
+                            "label": "4",
+                            "value": 4
+                        }
+                    ]
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "ON",
+                    "onClick": "IT_SendSwitchRS2($id, true);"
+                },
+                {
+                    "type": "Button",
+                    "label": "OFF",
+                    "onClick": "IT_SendSwitchRS2($id, false);"
+                }]
+}
