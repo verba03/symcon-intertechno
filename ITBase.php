@@ -295,7 +295,7 @@ abstract class ITBase extends IPSModule
             $this->SendDebug('SendSwitch SendState', $SendState, 0);
             if ($this->DoSend($SendState))
             {
-                SetValueBoolean($this->GetIDForIdent('STATE'), $State);
+                This->SetValue('STATE', $State);
                 return true;
             }
             else
