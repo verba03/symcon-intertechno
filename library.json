@@ -3,11 +3,11 @@
     "author": "Volkmar Meineke",
     "name": "Intertechno CUL Library",
     "url": "www.1234567.de",
-    "version": "0.01",
+    "version": "0.02",
     "build": 0,
     "date": 0,
     "title": "Intertechno Steckdosen (CUL 433MHz)",
     "description": "Erweitert IPS um diverse Instanzen für 433Mhz Funksteckdosen / Aktoren welche in Verbindung mit dem CUL geschaltet werden.",
     "tags": ["433Mhz", "Funk", "Intertechno", "Telecontrol", "FLS", "Elro", "Pollin", "Wetekom", "Westfalia", "Hauscode", "Conrad", "Funksteckdosen"],
-    "req_ips_version": "4.1"
+    "req_ips_version": "5.0"
 }
